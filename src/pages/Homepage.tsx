@@ -6,9 +6,9 @@ function Homepage() {
   const [currentImage, setCurrentImage] = useState(0)
 
   const heroImages = [
-    '/MattEsp/images/hero-01.jpg',
-    '/MattEsp/images/hero-02.jpg',
-    '/MattEsp/images/hero-03.jpg'
+    '/website/images/hero-01.jpg',
+    '/website/images/hero-02.jpg',
+    '/website/images/hero-03.jpg'
   ]
 
   useEffect(() => {
@@ -104,13 +104,13 @@ function Homepage() {
         <div className="intro-images">
           <div className="intro-image-large">
             <img
-              src="/MattEsp/images/intro-01.jpg"
+              src="/website/images/intro-01.jpg"
               alt="Interior detail"
             />
           </div>
           <div className="intro-image-small">
             <img
-              src="/MattEsp/images/intro-02.jpg"
+              src="/website/images/intro-02.jpg"
               alt="Architectural detail"
             />
             <p className="caption">Detail, Upper East Side residence, 2024</p>
@@ -122,7 +122,7 @@ function Homepage() {
       <section className="featured-work">
         <div className="featured-image-container">
           <img
-            src="/MattEsp/images/featured-01.jpg"
+            src="/website/images/featured-01.jpg"
             alt="Featured project"
             className="featured-image"
           />

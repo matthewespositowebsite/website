@@ -17,7 +17,7 @@ const tablewareCollection: TablewareItem[] = [
     maker: 'Jono Pandolfi',
     year: '2023',
     description: 'Hand-thrown stoneware with a matte off-white glaze. The irregular rim and subtle texture speak to the maker\'s hand.',
-    image: '/MattEsp/images/tabletop-01.jpg',
+    image: '/website/images/tabletop-01.jpg',
     notes: 'Set of 8, in daily use'
   },
   {
@@ -26,7 +26,7 @@ const tablewareCollection: TablewareItem[] = [
     maker: 'Rough Linen',
     year: '2022',
     description: 'Belgian linen in natural ecru. They soften with age and washing, developing an honest patina over time.',
-    image: '/MattEsp/images/tabletop-02.jpg'
+    image: '/website/images/tabletop-02.jpg'
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const tablewareCollection: TablewareItem[] = [
     maker: 'STUDIO PREPA',
     year: '2024',
     description: 'Mouth-blown glass with an intentionally asymmetrical form. Designed in Los Angeles.',
-    image: '/MattEsp/images/tabletop-03.jpg',
+    image: '/website/images/tabletop-03.jpg',
     notes: 'Limited edition of 50'
   },
   {
@@ -43,7 +43,7 @@ const tablewareCollection: TablewareItem[] = [
     maker: 'Erickson Woodworking',
     year: '2023',
     description: 'Solid American black walnut, finished with food-safe mineral oil. The wood grain is preserved in its natural state.',
-    image: '/MattEsp/images/tabletop-04.jpg'
+    image: '/website/images/tabletop-04.jpg'
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const tablewareCollection: TablewareItem[] = [
     maker: 'Vintage Georg Jensen',
     year: '1960s',
     description: 'Bernadotte pattern. Found at an estate sale in Copenhagen. The weight and balance are unmatched.',
-    image: '/MattEsp/images/tabletop-05.jpg',
+    image: '/website/images/tabletop-05.jpg',
     notes: 'Service for 6'
   },
   {
@@ -60,7 +60,7 @@ const tablewareCollection: TablewareItem[] = [
     maker: 'Tokoname Pottery',
     year: '2021',
     description: 'Traditional Japanese ceramic work from the Aichi region. Unglazed exterior with a natural clay finish.',
-    image: '/MattEsp/images/tabletop-06.jpg'
+    image: '/website/images/tabletop-06.jpg'
   }
 ]
 
@@ -134,7 +134,7 @@ function Tabletop() {
 
           <div className="philosophy-image">
             <img
-              src="/MattEsp/images/tabletop-philosophy.jpg"
+              src="/website/images/tabletop-philosophy.jpg"
               alt="Table setting detail"
             />
             <p className="caption">Detail from a recent dinner, Brooklyn</p>
