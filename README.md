@@ -59,26 +59,30 @@ npm run preview
 - **Responsive Design**: Gracefully adapts from desktop to mobile
 - **Performance**: Optimized images and smooth transitions
 
-## Deployment
+## 🚀 Deployment (GitHub Actions - No Local Machine Required!)
 
-### GitHub Pages (Automatic)
+The site is configured for automatic deployment via GitHub Actions.
 
-The site automatically deploys to GitHub Pages when you push to the main branch. The GitHub Actions workflow handles:
-- Building the project
-- Deploying to GitHub Pages
-- Configuring proper routing for React Router
+### Quick Setup (2 minutes):
 
-### Manual Deployment
+1. **Go to GitHub Repository Settings**
+   - Navigate to `Settings` → `Pages`
+   - Under "Source", select **"GitHub Actions"**
 
-```bash
-# Install dependencies
-npm install
+2. **That's it!** The workflow will automatically deploy on every push.
 
-# Deploy to GitHub Pages
-npm run deploy
-```
+3. **Visit your live site**: `https://OrenSegal.github.io/MattEsp`
 
-This will build the project and deploy it to the `gh-pages` branch.
+📖 **Detailed instructions**: See [`GITHUB_ACTIONS_SETUP.md`](./GITHUB_ACTIONS_SETUP.md)
+
+### How It Works
+
+Every push to the feature branch automatically:
+- Builds the React app
+- Deploys to GitHub Pages
+- Updates your live site in 2-3 minutes
+
+No local deployment needed!
 
 ## Philosophy
 
