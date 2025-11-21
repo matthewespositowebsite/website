@@ -6,9 +6,9 @@ function Homepage() {
   const [currentImage, setCurrentImage] = useState(0)
 
   const heroImages = [
-    'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=2400&h=1600&fit=crop&q=90',
-    'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=2400&h=1600&fit=crop&q=90',
-    'https://images.unsplash.com/photo-1600210492493-0946911123ea?w=2400&h=1600&fit=crop&q=90'
+    '/MattEsp/images/hero-01.jpg',
+    '/MattEsp/images/hero-02.jpg',
+    '/MattEsp/images/hero-03.jpg'
   ]
 
   useEffect(() => {
@@ -104,13 +104,13 @@ function Homepage() {
         <div className="intro-images">
           <div className="intro-image-large">
             <img
-              src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1200&h=1600&fit=crop&q=90"
+              src="/MattEsp/images/intro-01.jpg"
               alt="Interior detail"
             />
           </div>
           <div className="intro-image-small">
             <img
-              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&h=900&fit=crop&q=90"
+              src="/MattEsp/images/intro-02.jpg"
               alt="Architectural detail"
             />
             <p className="caption">Detail, Upper East Side residence, 2024</p>
@@ -122,7 +122,7 @@ function Homepage() {
       <section className="featured-work">
         <div className="featured-image-container">
           <img
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=2400&h=1200&fit=crop&q=90"
+            src="/MattEsp/images/featured-01.jpg"
             alt="Featured project"
             className="featured-image"
           />

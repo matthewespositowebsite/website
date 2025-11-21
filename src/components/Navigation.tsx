@@ -6,17 +6,17 @@ const navigationItems = [
   {
     path: '/design',
     label: 'Design',
-    previewImage: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=400&h=500&fit=crop'
+    previewImage: '/MattEsp/images/nav-design.jpg'
   },
   {
     path: '/tabletop',
     label: 'Tabletop',
-    previewImage: 'https://images.unsplash.com/photo-1578500351865-d19f8bc5a8f5?w=400&h=500&fit=crop'
+    previewImage: '/MattEsp/images/nav-tabletop.jpg'
   },
   {
     path: '/writing',
     label: 'Writing',
-    previewImage: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=500&fit=crop'
+    previewImage: '/MattEsp/images/nav-writing.jpg'
   },
   {
     path: '/contact',

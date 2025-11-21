@@ -19,9 +19,9 @@ const projects: Project[] = [
     year: '2024',
     description: 'A study in monochromatic restraint. This pre-war apartment was reimagined to honor its architectural bones while introducing a contemporary material palette of limestone, blackened steel, and Belgian linen.',
     images: [
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&h=1600&fit=crop',
-      'https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&h=1000&fit=crop',
-      'https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&h=1000&fit=crop',
+      '/MattEsp/images/project-01-main.jpg',
+      '/MattEsp/images/project-01-detail-01.jpg',
+      '/MattEsp/images/project-01-detail-02.jpg',
     ],
     featured: true
   },
@@ -32,9 +32,9 @@ const projects: Project[] = [
     year: '2023',
     description: 'For a photographer and writer couple, this project prioritized natural light and flexible space. Custom millwork creates fluid transitions between work and living areas.',
     images: [
-      'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&h=800&fit=crop',
-      'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=800&h=1000&fit=crop',
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=1000&fit=crop',
+      '/MattEsp/images/project-02-main.jpg',
+      '/MattEsp/images/project-02-detail-01.jpg',
+      '/MattEsp/images/project-02-detail-02.jpg',
     ],
     featured: false
   },
@@ -45,8 +45,8 @@ const projects: Project[] = [
     year: '2023',
     description: 'A weekend house that dissolves the boundary between interior and landscape. Concrete, glass, and white oak create a dialogue with the surrounding forest.',
     images: [
-      'https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=1200&h=1600&fit=crop',
-      'https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800&h=1000&fit=crop',
+      '/MattEsp/images/project-03-main.jpg',
+      '/MattEsp/images/project-03-detail-01.jpg',
     ],
     featured: true
   },
@@ -57,8 +57,8 @@ const projects: Project[] = [
     year: '2022',
     description: 'An exercise in edited luxury. The existing industrial shell was preserved while introducing carefully selected vintage furniture and bespoke lighting.',
     images: [
-      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1000&h=1200&fit=crop',
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=1000&fit=crop',
+      '/MattEsp/images/project-04-main.jpg',
+      '/MattEsp/images/project-04-detail-01.jpg',
     ],
     featured: false
   },
