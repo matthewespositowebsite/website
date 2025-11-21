@@ -3,23 +3,42 @@ import './Homepage.css'
 
 function Homepage() {
   const [isLoaded, setIsLoaded] = useState(false)
+  const [currentImage, setCurrentImage] = useState(0)
+
+  const heroImages = [
+    'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=2400&h=1600&fit=crop&q=90',
+    'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=2400&h=1600&fit=crop&q=90',
+    'https://images.unsplash.com/photo-1600210492493-0946911123ea?w=2400&h=1600&fit=crop&q=90'
+  ]
 
   useEffect(() => {
     // Delayed animation trigger for sophisticated entrance
-    const timer = setTimeout(() => setIsLoaded(true), 100)
-    return () => clearTimeout(timer)
+    const timer = setTimeout(() => setIsLoaded(true), 300)
+
+    // Slow image carousel (Robert Stilin inspired)
+    const imageInterval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % heroImages.length)
+    }, 8000)
+
+    return () => {
+      clearTimeout(timer)
+      clearInterval(imageInterval)
+    }
   }, [])
 
   return (
     <main className={`homepage ${isLoaded ? 'loaded' : ''}`}>
       <div className="hero">
-        {/* Large, partially obscured hero image */}
+        {/* Slow-transitioning hero images */}
         <div className="hero-image-container">
-          <img
-            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=2000&h=1200&fit=crop"
-            alt="Interior design by Matthew Esposito"
-            className="hero-image"
-          />
+          {heroImages.map((image, index) => (
+            <img
+              key={index}
+              src={image}
+              alt={`Interior design by Matthew Esposito - ${index + 1}`}
+              className={`hero-image ${index === currentImage ? 'active' : ''}`}
+            />
+          ))}
           <div className="hero-overlay" />
         </div>
 
@@ -64,23 +83,52 @@ function Homepage() {
               over trend.
             </p>
           </div>
+
+          {/* Personal touch - Atelier MVM inspired */}
+          <div className="intro-personal">
+            <div className="personal-item">
+              <span className="small-caps">Studio Playlist</span>
+              <a
+                href="https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="personal-link"
+              >
+                Music for Slow Afternoons
+              </a>
+            </div>
+          </div>
         </div>
 
-        {/* Asymmetrical image placement */}
+        {/* Asymmetrical image placement - larger, more immersive */}
         <div className="intro-images">
           <div className="intro-image-large">
             <img
-              src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&h=1000&fit=crop"
+              src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1200&h=1600&fit=crop&q=90"
               alt="Interior detail"
             />
           </div>
           <div className="intro-image-small">
             <img
-              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=500&h=600&fit=crop"
+              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&h=900&fit=crop&q=90"
               alt="Architectural detail"
             />
             <p className="caption">Detail, Upper East Side residence, 2024</p>
           </div>
+        </div>
+      </section>
+
+      {/* Full-bleed image section - Valle de Valle inspired */}
+      <section className="featured-work">
+        <div className="featured-image-container">
+          <img
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=2400&h=1200&fit=crop&q=90"
+            alt="Featured project"
+            className="featured-image"
+          />
+        </div>
+        <div className="featured-caption">
+          <span className="caption">Gramercy Residence, 2024</span>
         </div>
       </section>
     </main>
