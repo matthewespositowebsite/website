@@ -6,17 +6,17 @@ const navigationItems = [
   {
     path: '/design',
     label: 'Design',
-    previewImage: '/website/images/nav-design.jpg'
+    previewImage: '/images/nav-design.jpg'
   },
   {
     path: '/tabletop',
     label: 'Tabletop',
-    previewImage: '/website/images/nav-tabletop.jpg'
+    previewImage: '/images/nav-tabletop.jpg'
   },
   {
     path: '/writing',
     label: 'Writing',
-    previewImage: '/website/images/nav-writing.jpg'
+    previewImage: '/images/nav-writing.jpg'
   },
   {
     path: '/contact',
