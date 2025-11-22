@@ -25,7 +25,7 @@ function RedirectHandler() {
 
 function App() {
   return (
-    <Router basename="/website">
+    <Router basename="/">
       <RedirectHandler />
       <div className="app">
         <Navigation />
