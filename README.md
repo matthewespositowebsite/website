@@ -2,7 +2,7 @@
 
 An exceptional portfolio website for interior designer Matthew Esposito, crafted with deliberate restraint and editorial sophistication.
 
-**Live Site**: [https://OrenSegal.github.io/MattEsp](https://OrenSegal.github.io/MattEsp)
+**Live Site**: [https://matthewesposito.github.io/website](https://matthewesposito.github.io/website)
 
 ## Design Philosophy
 
@@ -71,7 +71,7 @@ The site is configured for automatic deployment via GitHub Actions.
 
 2. **That's it!** The workflow will automatically deploy on every push.
 
-3. **Visit your live site**: `https://OrenSegal.github.io/MattEsp`
+3. **Visit your live site**: `https://matthewesposito.github.io/website`
 
 📖 **Detailed instructions**: See [`GITHUB_ACTIONS_SETUP.md`](./GITHUB_ACTIONS_SETUP.md)
 
