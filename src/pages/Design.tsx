@@ -19,9 +19,9 @@ const projects: Project[] = [
     year: '2024',
     description: 'A study in monochromatic restraint. This pre-war apartment was reimagined to honor its architectural bones while introducing a contemporary material palette of limestone, blackened steel, and Belgian linen.',
     images: [
-      '/website/images/project-01-main.jpg',
-      '/website/images/project-01-detail-01.jpg',
-      '/website/images/project-01-detail-02.jpg',
+      '/images/project-01-main.jpg',
+      '/images/project-01-detail-01.jpg',
+      '/images/project-01-detail-02.jpg',
     ],
     featured: true
   },
@@ -32,9 +32,9 @@ const projects: Project[] = [
     year: '2023',
     description: 'For a photographer and writer couple, this project prioritized natural light and flexible space. Custom millwork creates fluid transitions between work and living areas.',
     images: [
-      '/website/images/project-02-main.jpg',
-      '/website/images/project-02-detail-01.jpg',
-      '/website/images/project-02-detail-02.jpg',
+      '/images/project-02-main.jpg',
+      '/images/project-02-detail-01.jpg',
+      '/images/project-02-detail-02.jpg',
     ],
     featured: false
   },
@@ -45,8 +45,8 @@ const projects: Project[] = [
     year: '2023',
     description: 'A weekend house that dissolves the boundary between interior and landscape. Concrete, glass, and white oak create a dialogue with the surrounding forest.',
     images: [
-      '/website/images/project-03-main.jpg',
-      '/website/images/project-03-detail-01.jpg',
+      '/images/project-03-main.jpg',
+      '/images/project-03-detail-01.jpg',
     ],
     featured: true
   },
@@ -57,8 +57,8 @@ const projects: Project[] = [
     year: '2022',
     description: 'An exercise in edited luxury. The existing industrial shell was preserved while introducing carefully selected vintage furniture and bespoke lighting.',
     images: [
-      '/website/images/project-04-main.jpg',
-      '/website/images/project-04-detail-01.jpg',
+      '/images/project-04-main.jpg',
+      '/images/project-04-detail-01.jpg',
     ],
     featured: false
   },
